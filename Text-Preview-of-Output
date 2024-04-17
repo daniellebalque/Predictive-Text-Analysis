@@ -1,0 +1,39 @@
+Output:
+     Accuracy: 0.545
+     Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      0.06      0.11       193
+           1       0.53      1.00      0.69       207
+
+    accuracy                           0.55       400
+   macro avg       0.77      0.53      0.40       400
+weighted avg       0.76      0.55      0.41       400
+
+
+# Output of ROC curve in file - ROCcurve.png
+
+
+Output:
+     Below is the likelihood of a culprit obtaining one of these features:
+
+WC          -0.059706
+Analytic    -0.112509
+Clout       -0.084296
+Authentic    0.069154
+Tone        -0.067734
+Affect       0.054481
+tone_pos     0.038414
+tone_neg     0.026324
+emotion      0.058237
+emo_pos      0.018134
+emo_neg      0.033041
+emo_anx     -0.034267
+emo_anger    0.120935
+emo_sad      0.236327
+Name: Culprit, dtype: float64
+
+
+Output:
+     Mean Squared Error: 1.313528283185695e-29
+     R-squared: 1.0
